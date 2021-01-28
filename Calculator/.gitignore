@@ -1,0 +1,8 @@
+/target/*
+!/target/site
+/target/site/*
+!/target/site/surefire-report.html
+!/target/site/css
+!/target/site/images
+/Calculator.iml
+/.idea/

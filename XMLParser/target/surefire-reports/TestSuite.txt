@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 131, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 1.98 s <<< FAILURE! - in TestSuite
+collections.MyArrayListTest.testAddNullWithIndex  Time elapsed: 0.011 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method MyArrayListTest.testAddNullWithIndex()[pri:0, instance:collections.MyArrayListTest@6497b078] should have thrown an exception of type class java.lang.NullPointerException
+
+collections.MyArrayListTest.testAddNullWithoutIndex  Time elapsed: 0.004 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method MyArrayListTest.testAddNullWithoutIndex()[pri:0, instance:collections.MyArrayListTest@6497b078] should have thrown an exception of type class java.lang.NullPointerException
+
+collections.MyArrayListTest.testContainsWithNullArgument  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method MyArrayListTest.testContainsWithNullArgument()[pri:0, instance:collections.MyArrayListTest@6497b078] should have thrown an exception of type class java.lang.NullPointerException
+
+collections.MyArrayListTest.testRemoveWithNullArgument  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method MyArrayListTest.testRemoveWithNullArgument()[pri:0, instance:collections.MyArrayListTest@6497b078] should have thrown an exception of type class java.lang.NullPointerException
+
+collections.MyArrayListTest.testSetWithNullArgument  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestException: 
+
+Method MyArrayListTest.testSetWithNullArgument()[pri:0, instance:collections.MyArrayListTest@6497b078] should have thrown an exception of type class java.lang.NullPointerException
+
+collections.MyDLLTest.testAddWithIndex  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at collections.MyDLLTest.testAddWithIndex(MyDLLTest.java:122)
+
+collections.MyDLLTest.testRemoveWithoutIndex  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [2]
+	at collections.MyDLLTest.testRemoveWithoutIndex(MyDLLTest.java:163)
+
+parser.XMLParserTest.testEmptyFile  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at parser.XMLParserTest.testEmptyFile(XMLParserTest.java:22)
+
+parser.XMLParserTest.testEmptyTag  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: did not expect [0] but found [0]
+	at parser.XMLParserTest.testEmptyTag(XMLParserTest.java:31)
+
+parser.XMLParserTest.testSelfClosingTag  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [2]
+	at parser.XMLParserTest.testSelfClosingTag(XMLParserTest.java:80)
+
+parser.XMLParserTest.testTagWithCDATA  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [1]
+	at parser.XMLParserTest.testTagWithCDATA(XMLParserTest.java:171)
+
+parser.XMLParserTest.testTagWithInvalidAmpersand  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: did not expect [0] but found [0]
+	at parser.XMLParserTest.testTagWithInvalidAmpersand(XMLParserTest.java:115)
+
+parser.XMLParserTest.testWithComment  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [2]
+	at parser.XMLParserTest.testWithComment(XMLParserTest.java:150)
+
+parser.XMLParserTest.testWithProlog  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [0] but found [1]
+	at parser.XMLParserTest.testWithProlog(XMLParserTest.java:157)
+

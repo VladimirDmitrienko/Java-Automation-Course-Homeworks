@@ -1,0 +1,15 @@
+*.iml
+/.idea/
+/build/
+/debug.log
+/.allure/
+/target/*
+!/target/site
+/target/site/*
+!/target/site/allure-maven-plugin
+/target/site/allure-maven-plugin/*
+!/target/site/allure-maven-plugin/allure-maven.html
+!/target/site/allure-maven-plugin/app.js
+!/target/site/allure-maven-plugin/favicon.ico
+!/target/site/allure-maven-plugin/index.html
+!/target/site/allure-maven-plugin/styles.css

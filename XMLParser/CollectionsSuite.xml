@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CollectionsSuite" verbose="1">
+    <test name="MyArraylist test" >
+        <classes>
+            <class name="collections.MyArrayListTest" />
+        </classes>
+    </test>
+    <test name="MyDLL test">
+        <classes>
+            <class name="collections.MyDLLTest"/>
+        </classes>
+    </test>
+    <test name="MyQueue test">
+        <classes>
+            <class name="collections.MyQueueTest"/>
+        </classes>
+    </test>
+    <test name="MyStack test">
+        <classes>
+            <class name="collections.MyStackTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,6 @@
+<example-code><![CDATA[
+while (x < len && !done) {
+    print( "Still working, 'zzzz'." );
+    ++x;
+    }
+]]></example-code>

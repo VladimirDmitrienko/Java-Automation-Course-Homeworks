@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CollectionsSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="MyArraylist test(failed)" verbose="0">
+    <classes>
+      <class name="collections.MyArrayListTest">
+        <methods>
+          <include name="testRemoveWithNullArgument"/>
+          <include name="initArray"/>
+          <include name="testAddNullWithIndex"/>
+          <include name="destructArray"/>
+          <include name="testContainsWithNullArgument"/>
+          <include name="testAddNullWithoutIndex"/>
+          <include name="testSetWithNullArgument"/>
+        </methods>
+      </class> <!-- collections.MyArrayListTest -->
+    </classes>
+  </test> <!-- MyArraylist test(failed) -->
+  <test thread-count="5" name="MyDLL test(failed)" verbose="0">
+    <classes>
+      <class name="collections.MyDLLTest">
+        <methods>
+          <include name="testAddWithIndex"/>
+          <include name="initDLL"/>
+          <include name="testRemoveWithoutIndex"/>
+          <include name="destructDLL"/>
+        </methods>
+      </class> <!-- collections.MyDLLTest -->
+    </classes>
+  </test> <!-- MyDLL test(failed) -->
+  <test thread-count="5" name="Parser test(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testEmptyTag"/>
+          <include name="testTagWithInvalidAmpersand"/>
+          <include name="testEmptyFile"/>
+          <include name="testWithProlog"/>
+          <include name="testSelfClosingTag"/>
+          <include name="testWithComment"/>
+          <include name="testTagWithCDATA"/>
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- Parser test(failed) -->
+</suite> <!-- Failed suite [CollectionsSuite] -->
